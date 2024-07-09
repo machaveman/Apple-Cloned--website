@@ -1,0 +1,235 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue",Helvetica, Arial, sans-serif;
+}
+:root{
+    --text-color:rgba(255,255,255,.8);
+    --bg-color:rgba(0,0,0,.8);
+    --text-heading:#0071e3;
+    --text-heading11:#1d1d1f;
+}
+#nav{
+    border: 2px solid;
+    height:50px;
+    background-color: var(--text-heading11);
+    /* position: fixed; */
+
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 70%;
+    margin: auto;
+}
+#sub-nav ol{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+    fill: var(--text-color);
+}
+#main{
+    border: 1px solid white;
+    height: 580px;
+    background-image: url(./image/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--text-color);
+    text-align: center;
+}
+#main h1{
+    font-size: 50px;
+    margin-top: 60px;
+    padding: 10px;
+}
+#main h1+h6{
+    font-size: 25px;
+    padding: 10px;
+}
+#main h1+h6+a{
+    /* word-spacing: 30px; */
+    text-decoration: none;
+    color: #06c;
+    padding: 10px;
+}
+#main h1+h6+a+a{
+    /* word-spacing: 30px; */
+    text-decoration: none;
+    color: #06c;
+}
+#main h1+h6+a:hover{    
+    text-decoration: underline;
+}
+#main h1+h6+a+a:hover{    
+    text-decoration: underline;
+}
+#sub-main{
+    border: 2px solid white;
+    height: 580px;
+    background-image: url(./image/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--text-color11);
+    text-align: center;
+}
+#sub-main h1{
+    font-size: 50px;
+    margin-top: 60px;
+    padding: 10px;
+}
+#sub-main h1+h6{
+    font-size: 25px;
+    padding: 10px;
+}
+#sub-main h1+h6+a{
+    /* word-spacing: 30px; */
+    text-decoration: none;
+    padding: 10px;
+    color: #06c;
+}
+#sub-main h1+h6+a+a{
+    /* word-spacing: 30px; */
+    text-decoration: none;
+    padding: 10px;
+    color: #06c;
+}
+#sub-main h1+h6+a:hover{    
+    text-decoration: underline;
+}
+#sub-main h1+h6+a+a:hover{    
+    text-decoration: underline;
+}
+/* #video{
+    border: 1px solid white;
+    height: 580px;
+    background-size: cover;
+    background-position: center;
+    color: var(--text-color);
+    text-align: center;
+} */
+#sub-1{
+    border: 2px solid  white;
+    height: 520px;
+    width: 49%;
+    background-image: url(./image/watch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fbfbfd;
+    text-align: center;
+}
+#sub-2{
+    border: 2px solid  white;
+    height: 520px;
+    width: 49%;
+    margin-left:51%;
+    margin-top:-520px ;
+    background-image: url(./image/laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fbfbfd;
+    text-align: center;
+}
+#sub-3{
+    border: 2px solid white ;
+    height: 520px;
+    width: 49%;
+    background-image: url(./image/ipad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fbfbfd;
+    text-align: center;
+}
+#sub-4{
+    border: 2px solid ;
+    height: 520px;
+    width: 49%;
+    margin-left:51%;
+    margin-top:-520px ;
+    background-image: url(./image/airpods.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fbfbfd;
+    text-align: center;
+    color: white;
+}
+#sub-5{
+    border: 2px solid white ;
+    height: 520px;
+    width: 49%;
+    background-image: url(./image/speakers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fbfbfd;
+    text-align: center;
+}
+#sub-6{
+    border: 2px solid white ;
+    height: 520px;
+    width: 49%;
+    margin-left:51%;
+    margin-top:-520px ;
+    background-image: url(./image/last.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fbfbfd;
+    text-align: center;
+}
+#sub-1 h1{
+    margin-top: 80px;
+    font-size: 30px;
+}
+#sub-1 h1+p{
+    
+    color: orange;
+}
+#sub-2 h1{
+    margin-top: 80px;
+    font-size: 30px;
+}
+#sub-2 h1+p{
+    
+    color: orange;
+}
+#sub-3 h1{
+    margin-top: 80px;
+    font-size: 30px;
+}
+#sub-3 h1+p{
+    
+    color: orange;
+}
+#sub-4 h1{
+    margin-top: 80px;
+    font-size: 30px;
+}
+#sub-4 h1+p{
+    
+    color: orange;
+}
+#sub-5 h1{
+    margin-top: 80px;
+    font-size: 30px;
+}
+#sub-5 h1+p{
+    
+    color: orange;
+}
+#sub-6 h1{
+    margin-top: 80px;
+    font-size: 30px;
+}
+#sub-6 h1+p{
+    
+    color: orange;
+}
